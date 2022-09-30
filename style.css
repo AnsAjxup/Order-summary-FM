@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Pale-blue-font: hsl(225, 100%, 94%);
+    --Pale-blue-font-plan: hsl(226, 63%, 96%);
+    --Bright-blue-button: hsl(245, 75%, 52%);
+    --Very-pale-blue-font-card: hsl(225, 100%, 98%);
+    --Desaturated-blue-paragraph: hsl(224, 23%, 55%);
+    --Dark-blue-title: hsl(223, 47%, 23%);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue-font);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--Desaturated-blue-paragraph);
+}
+.card{
+    width: 35rem;
+    margin: 5rem auto;
+    border-radius: 1.5rem;
+    background-color: var(--Very-pale-blue-font-card);
+}
+.img-hero{
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.section-card{
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+}
+.title{
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--Dark-blue-title);
+}
+.paragraph{
+    margin: 1.5rem 0;
+    padding: 0 1.5rem;
+}
+.plan-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--Pale-blue-font-plan);
+}
+.icon-music{
+    width: 4rem;
+}
+.plan{
+    margin-left: 1rem;
+}
+.plan p:nth-child(1){
+    color: var(--Dark-blue-title);
+    font-weight: 700;
+}
+.a-change{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--Bright-blue-button);
+}
+.a-change:hover{
+    filter: opacity(0.9);
+    text-decoration: none;
+    
+}
+.btn-payment{
+    width: 100%;
+    height: 4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--Very-pale-blue-font-card);
+    border: none;
+    background-color: var(--Bright-blue-button);
+    margin: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px 0 hsl(245, 62%, 74%);
+}
+.btn-payment:hover{
+    filter: opacity(0.85);
+    cursor: pointer;
+}
+.btn-cancel{
+    width: 11rem;
+    height: 3rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--Desaturated-blue-paragraph);
+    border: none;
+    background-color: var(--Very-pale-blue-font-card);
+}
+.btn-cancel:hover{
+    color: var(--Dark-blue-title);
+    cursor: pointer;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
